@@ -1,0 +1,24 @@
+.AllCards{
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+}
+.AllCards>*{
+    margin: 20px 10px;
+}
+.AllCards>*:hover{
+    box-shadow: -1px 1px 30px 10px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: -1px 1px 30px 10px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: -1px 1px 30px 10px rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        cursor: pointer;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
